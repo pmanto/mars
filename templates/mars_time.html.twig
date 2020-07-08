@@ -1,0 +1,27 @@
+{# templates/mars_synch_view.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        {{ form_start(form) }}
+        {{ form_row(form.earthDate) }}
+        {{ form_widget(form.submit) }}
+        {{ form_end(form) }}
+        {% if msd and mtc %}
+            <table class="table result-table">
+                <thead>
+                    <tr>
+                        <th>MSD</th>
+                        <th>MTC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ msd }}</td>
+                        <td>{{ mtc }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        {% endif %}
+    </div>
+{% endblock %}

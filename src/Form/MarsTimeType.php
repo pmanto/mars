@@ -14,13 +14,13 @@ class MarsTimeType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-                ->add('earthDate', DateTimeType::class,
-                        ['label' => 'Earth date'])
-                ->add('current', SubmitType::class, [
-                    'label' => 'User current date'
+                ->add('earthDate', DateTimeType::class, [
+                    'label' => 'Enter the earth date that you want to check: ',
+                    'widget' => 'single_text',
+                    'format' => 'dd-MM-yyyy HH:mm'
                 ])
                 ->add('submit', SubmitType::class, [
-                    'label' => 'Get Mars times'
+                    'label' => 'Get Mars time'
                 ])
         ;
     }

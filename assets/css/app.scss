@@ -1,0 +1,23 @@
+// the ~ allows you to reference things in node_modules
+$theme-colors: (
+  "primary": red,
+);
+@import "~bootstrap/scss/bootstrap";
+@import "~tempusdominus-bootstrap-4/src/sass/tempusdominus-bootstrap-4-build";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+.nav-logo{
+    width: 100px;
+}
+.nav-title{
+    padding-left: 10px;
+}
+.container{
+    padding-top: 20px;
+}
+.result-table{
+    margin: 15px;
+    th{
+        font-weight: bold;
+    }
+}
