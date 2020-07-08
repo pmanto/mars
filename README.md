@@ -8,10 +8,10 @@ Also, if you check https://symfony.com/releases, symfony 4.4 has now a long main
 <p>Since this is a backend focus challenge, I'm just using the twig templates with bootsrap 4 and jQuery, also one plugin for the datetimepicker but it's quite simple, I've installed webpack encore to manage all the assets too.</p>
 <h2>Tests</h2>
 <p>For the test part, I'm using phpunit, I've created one functional test for the controller and one unit test file for the service.</p>
-<h2>Required <h2>
+<h2>Requirements<h2>
 <ul>
     <li>docker-compose</li>
     <li>yarn</li>
     <li>composer</li>
 </ul>
-<p>If you already have these installed, you can run bin/install.sh and then open http://0.0.0.0:8060/ in your browser and check the time on Mars :)</p>
+<p>If you already have these requirements installed, you can run bin/install.sh in the project root and then open http://0.0.0.0:8060/ in your browser and check the time on Mars :)</p>
