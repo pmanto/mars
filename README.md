@@ -9,7 +9,7 @@ Also, if you check https://symfony.com/releases, symfony 4.4 has now a long main
 <h2>Tests</h2>
 <p>For the test part, I'm using phpunit, I've created one functional test for the controller and one unit test file for the service.</p>
 <hr>
-<h2>Required <h2>
+<h2>Requirements<h2>
 <ul>
     <li>docker-compose</li>
     <li>yarn</li>
